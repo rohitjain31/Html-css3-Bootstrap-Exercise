@@ -148,6 +148,10 @@ html, body {
   padding: 0px 20px;
 }
 
+.button_map {
+  margin-left: 50px;
+}
+
 .section1 {
   width: 80%;
   margin: auto;
@@ -159,6 +163,13 @@ html, body {
   width: 500px;
   height: 300px;
   padding: 20px;
+}
+
+.tab-container {
+  margin-top: 30px;
+  width: 80%;
+  height: 250px;
+  border-bottom: 0.5px solid gray;
 }
 
 /* Section 2 styling */
