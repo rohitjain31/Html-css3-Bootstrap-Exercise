@@ -2,6 +2,9 @@
 <html>
   <head>
     <meta charset="utf-8" />
+    <meta name="description" content="Middle East" />
+    <meta name="keywords" content="HTML,CSS,bootstrap" />
+    <meta name="author" content="Rohit Jain" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Visit Dubai</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
@@ -12,7 +15,6 @@
     <script type="text/javascript" src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js'></script>
   </head>
   <body>
-
     <!--Fixed Header & Nav Bar Start -->
     <nav  class='navbar navbar-default navbar-fixed-top'>
       <div class="container-fluid">
@@ -34,7 +36,15 @@
           <ul class="nav navbar-nav navbar-right">
             <li><a href="#">Home</a></li>
             <li><a href='#destinations'>Destination</a></li>
-            <li><a href='#'>Booking</a></li>
+            <li class="dropdown">
+              <a href='#' class='dropdown-toggle' data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                Booking<span class="caret"></span>
+              </a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Offline</a></li>
+                <li><a href="#">Online</a></li>
+              </ul>
+            </li>
             <li><a href='./templates/events.html'>Places/Events</a></li>
           </ul>
         </div>
@@ -55,7 +65,7 @@
 
     <!-- Section 1 Destinations starts -->
     <section id='destinations' class="row section1">
-      <div class="col-md-4 section1__column">
+      <div class="col-md-4">
         <div class="section1__location-logo">
           <img src="./images/location.svg" alt="location" class="img_responsive img_class">
           <div class="destination_name">Dubai</div>
@@ -74,7 +84,6 @@
         <!-- Modal -->
         <section id="myModal" class="modal fade" role="dialog">
           <div class="modal-dialog">
-
             <!-- Modal content-->
             <div class="modal-content">
               <div class="modal-header">
@@ -88,11 +97,10 @@
                 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
               </div>
             </div>
-
           </div>
         </section>
       </div>
-      <div class="col-md-4 section1__column">
+      <div class="col-md-4">
         <div class="section1__location-logo">
           <img src="./images/location.svg" alt="location" class="img_responsive img_class">
           <div class="destination_name">Abu Dhabi</div>
@@ -111,7 +119,6 @@
         <!-- Modal -->
         <section id="myModal" class="modal fade" role="dialog">
           <div class="modal-dialog">
-
             <!-- Modal content-->
             <div class="modal-content">
               <div class="modal-header">
@@ -128,7 +135,7 @@
           </div>
         </section>
       </div>
-      <div class="col-md-4 section1__column">
+      <div class="col-md-4">
         <div class="section1__location-logo">
           <img src="./images/location.svg" alt="location" class="img_responsive img_class">
           <div class="destination_name">Doha</div>
@@ -145,7 +152,6 @@
         <!-- Modal -->
         <section id="myModal" class="modal fade" role="dialog">
           <div class="modal-dialog">
-
             <!-- Modal content-->
             <div class="modal-content">
               <div class="modal-header">
@@ -159,7 +165,6 @@
                 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
               </div>
             </div>
-
           </div>
         </section>
       </div>

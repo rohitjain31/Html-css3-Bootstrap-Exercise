@@ -122,13 +122,19 @@ html, body {
 
 /* Section 1 Styling */
 
+.section1 {
+  width: 80%;
+  margin: auto;
+  padding-bottom: 30px;
+  padding-top: 20px;
+}
+
 .section1__location-logo {
   text-align: center;
 }
 
 .img_class {
   height: 100px;
-
 }
 
 .destination_name {
@@ -151,19 +157,8 @@ html, body {
 .button_map {
   margin-left: 50px;
 }
+/* section 1 styling   finished */
 
-.section1 {
-  width: 80%;
-  margin: auto;
-  padding-bottom: 30px;
-  padding-top: 20px;
-}
-
-.img_place {
-  width: 500px;
-  height: 300px;
-  padding: 20px;
-}
 
 .tab-container {
   margin-top: 30px;
@@ -181,45 +176,23 @@ html, body {
   height: auto;
 }
 
+.img_place {
+  width: 500px;
+  height: 300px;
+  padding: 20px;
+}
+
 .section2__map {
   height: 100%;
   padding-left: 30px;
-}
-
-.section2__content {
-  height: 100%;
-
 }
 
 .img_map {
   padding-top: 30px;
 }
 
-.content__About {
-
-}
-
 .article__name {
   color: #00a79a;
-}
-
-/* section 3 styling */
-
-.section3 {
-  width: 80%;
-  margin: auto;
-  height: auto;
-  padding-top: 10px;
-}
-
-
-/* section 4 styling */
-
-.section4 {
-  width: 80%;
-  margin: auto;
-  height: auto;
-  padding-top: 10px;
 }
 
 /* footer styling */

@@ -2,6 +2,9 @@
 <html>
   <head>
     <meta charset="utf-8" />
+    <meta name="description" content="Middle East" />
+    <meta name="keywords" content="HTML,CSS,bootstrap" />
+    <meta name="author" content="Rohit Jain" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Visit Dubai</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
@@ -33,7 +36,15 @@
           <ul class="nav navbar-nav navbar-right">
             <li><a href="../index.html">Home</a></li>
             <li><a href='#destinations'>Destination</a></li>
-            <li><a href='#'>Booking</a></li>
+            <li class="dropdown">
+              <a href='#' class='dropdown-toggle' data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                Booking<span class="caret"></span>
+              </a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Offline</a></li>
+                <li><a href="#">Online</a></li>
+              </ul>
+            </li>
             <li><a href='#'>Places/Events</a></li>
           </ul>
         </div>
@@ -53,16 +64,15 @@
     <!-- Mast Head Hero Image Finish -->
 
     <!-- Section 2 Two verticle column layout   start -->
-      <section class="row section2">
-        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-        <!-- Indicators -->
-        <ol class="carousel-indicators">
-          <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-          <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-          <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-          <li data-target="#carousel-example-generic" data-slide-to="3"></li>
-        </ol>
-
+    <section class="row section2">
+      <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+      </ol>
         <!-- Wrapper for slides -->
         <div class="carousel-inner" role="listbox">
           <div class="item active">
@@ -159,7 +169,6 @@
           </div>
           ...
         </div>
-
         <!-- Controls -->
         <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
           <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
@@ -169,7 +178,7 @@
           <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
           <span class="sr-only">Next</span>
         </a>
-      </div>
+        </div>
     </section>
     <!-- Section 2 Two verticle column layout   finish -->
 
