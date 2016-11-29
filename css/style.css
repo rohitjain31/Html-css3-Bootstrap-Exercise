@@ -9,6 +9,8 @@ html, body {
   margin: 0;
 }
 
+/* Header styling */
+
 .brand {
   display: flex;
   flex-direction: row;
@@ -27,6 +29,8 @@ html, body {
   font-size: 20px;
   letter-spacing: 2px;
 }
+
+/* Masthead styling */
 
 .masthead {
   width: 100%;
@@ -159,12 +163,12 @@ html, body {
 }
 /* section 1 styling   finished */
 
+/* tabbed button styling */
 
 .tab-container {
   margin-top: 30px;
   width: 80%;
   height: 250px;
-  border-bottom: 0.5px solid gray;
 }
 
 /* Section 2 styling */
